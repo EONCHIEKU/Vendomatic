@@ -39,15 +39,6 @@ public class VendingMachineTest {
         assertEquals(0, vendingMachine.getCurrentMoney());
     }
 
-//    @Test
-//    public void testGenerateSalesReport() throws IOException {
-//        vendingMachine.generateSalesReport();
-//        File reportFile = new File("SalesReport.txt");
-//        assertTrue(reportFile.exists());
-//        String content = Files.readString(reportFile.toPath());
-//        assertTrue(content.contains("**TOTAL SALES**"));
-//        reportFile.delete();
-//    }
 }
 
 
